@@ -13,7 +13,7 @@ pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tessera
 app = Flask(__name__)
 
 
-key1 = 'SHVrh7Hv1v7ZEEOObIn8uyJ2VAobdLU2FOOBqhHI'
+key1 = 'Enter Your API Key'
 cohere_api_key = key1 
 co = cohere.Client(cohere_api_key)
 
