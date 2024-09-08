@@ -1,0 +1,54 @@
+body {
+    background: #f5f7fa;
+    font-family: 'Arial', sans-serif;
+}
+
+.container {
+    max-width: 700px;
+    margin: 50px auto;
+    background: #fff;
+    padding: 30px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+.form-control {
+    margin-bottom: 15px;
+}
+
+.custom-file-label {
+    color: #6c757d;
+}
+
+.btn-primary {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    border-radius: 25px;
+}
+
+.loader {
+    width: 40px;
+    height: 40px;
+    margin-top: 20px;
+    margin-left: 300px;
+    display: none;
+}
+
+@keyframes spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
+
+
+#test-case-content {
+    white-space: pre-wrap; /* Keeps new lines */
+    word-wrap: break-word; /* Prevents long words from overflowing */
+    overflow-x: auto;      /* Horizontal scroll */
+}
